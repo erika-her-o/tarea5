@@ -8,22 +8,45 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header></header>
-    
-    <nav class="articles">
-        <section class="principal"></section>
-        <section class="left"></section>
-        <section class="right"></section>
-    </nav>
+    <header>
+        <h1>MI BLOG</h1>
+    </header>
 
-    <div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim provident repellendus
-           iusto ab est voluptate, vitae nisi sapiente sunt temporibus vero nesciunt ea accusamus, 
-           voluptatum sed? Tempora, mollitia! Cumque, quia!
-        </p>
+    <div class="content-wrapper"> 
+        <section>
+            <article class="main">
+                <img src="assets/img/lovecraft-poe.jpg" alt="lovecraf-poe">
+                <h2>Articulo</h2>
+            </article>
+            <div class="art-container">
+                <article>
+                    <img width="300" height="250" src="assets/img/portada-escritores.jpg" alt="writers-cover">
+                    <h2>Articulo</h2>
+                </article>
+                <article>
+                    <img width="300" height="250" src="assets/img/recomendaciones.jpg" alt="recommend">
+                    <h2>Articulo</h2>
+                </article>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse cumque non mollitia possimus magni 
+                expedita eos labore illo voluptates quidem vero, in quaerat! Odio sequi maiores quasi asperiores 
+                voluptatum totam beatae nostrum sit, doloremque dolorum minima aspernatur nemo rem itaque harum 
+                quibusdam illo cum exercitationem. Aperiam consectetur quidem a temporibus.
+            </p>
+        </section>
+
+        <aside>
+            <img src="assets/img/libro.jpg" alt="book">
+            <h3>Otros</h3>
+            <h3>Recibe Noticias</h3>
+            <form id="contact" method="POST">
+                <input type="text" placeholder="Nombre" required>
+                <input type="text" placeholder="Correo" required>
+                <input type="text" placeholder="Teléfono" required>
+                <button id="send">Enviar</button>
+            </form>
+        </aside>
     </div>
-    <div class="contact"></div>
-    <p>hshdkajdhkakdkaaaaad</p>
-    <footer></footer>
+    <script src="/script.js"></script>
 </body>
 </html>
